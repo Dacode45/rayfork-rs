@@ -9,7 +9,14 @@ repository = "https://github.com/dacode45/rayfork-rs"
 keywords = ["bindings", "raylib", "rayfork", "gamedev", "ffi"]
 categories = ["external-ffi-bindings"]
 edition = "2018"
-exclude = ["rayfork/*"]
+include = [
+    "**/*rs",
+    "Cargo.toml",
+    "wrapper.*",
+    "rayfork/rayfork/*",
+    "rayfork/dependencies/*",
+    "rayfork/examples/dependencies/*"
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

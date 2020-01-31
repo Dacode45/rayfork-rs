@@ -7,7 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rayfork-sys = { path = "../rayfork-sys" }
+rayfork-sys = { path = "../rayfork-sys", version = "0.0.1" }
 glutin = "0.22.0" 
 glow = "0.4.0"
 gl_generator = "0.14"
