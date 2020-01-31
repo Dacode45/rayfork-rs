@@ -1,0 +1,2 @@
+[workspace]
+members = ["rayfork", "rayfork-sys"]

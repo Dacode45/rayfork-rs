@@ -1,0 +1,14 @@
+[package]
+name = "rayfork"
+version = "0.0.1"
+authors = ["Dacode45 <davidrolandayeke@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rayfork-sys = { path = "../rayfork-sys" }
+glutin = "0.22.0" 
+glow = "0.4.0"
+gl_generator = "0.14"
+gl = "0.14"

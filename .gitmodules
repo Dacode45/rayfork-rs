@@ -1,0 +1,3 @@
+[submodule "rayfork-sys/rayfork"]
+	path = rayfork-sys/rayfork
+	url = https://github.com/SasLuca/rayfork.git

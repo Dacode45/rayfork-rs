@@ -1,0 +1,20 @@
+[package]
+name = "rayfork-sys"
+version = "0.1.0"
+authors = ["Dacode45 <davidrolandayeke@gmail.com>"]
+license = "MIT"
+description = "Raw FFI bindings for Rayfork"
+documentation = "https://docs.rss/rayfork-sys"
+repository = "https://github.com/dacode45/rayfork-rs"
+keywords = ["bindings", "raylib", "rayfork", "gamedev", "ffi"]
+categories = ["external-ffi-bindings"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cc = "1.0"
+bindgen = "0.52"
